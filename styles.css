@@ -1,0 +1,89 @@
+* { box-sizing: border-box;}
+
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #def;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    padding: none;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 2em;
+}
+
+nav a {
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    margin-left: 6.5em;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url("./hero-img.jpg");
+    background-size: 100vw 100vh;
+    overflow: auto;
+}
+
+.hero-text {
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.hero img {
+    width: 21rem;
+    height: 19rem;
+
+}
+
+.hero h2 {
+    font-size: 3.5em;
+    text-shadow: #FFF;
+    color: black;
+    line-height: auto;
+}
+
+
+.hero p {
+    font-size: 1.22em;
+    margin-bottom: 2em;
+    color: black;
+}
+
+.highlight {
+    background-color: whitesmoke;
+}
+
+.btn1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 10px;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn1:hover, .btn2:hover {
+    font-size: 120%;
+}
